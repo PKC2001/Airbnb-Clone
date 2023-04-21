@@ -9,11 +9,11 @@ const Banner = () => {
       layout="fill"
       object-fit="cover"
       />
-      <div className="absolute top-1/2 w-full text-center">
-        <p className="text-xs sm:text-sm md:text-lg ">
+      <div className="absolute w-full text-center top-1/2">
+        <p className="text-xs cursor-pointer sm:text-sm md:text-lg">
           Not sure where to go? Perfect.
         </p>
-        <button className="text-purple-500 bg-white px-8 py-3 shadow-md rounded-full font-bold my-3 hover:shadow-xl active:scale-90 transition-150">I'm flexible</button>
+        <button className="px-8 py-3 my-3 font-bold text-purple-500 bg-white rounded-full shadow-md hover:shadow-xl active:scale-90 transition-150">I'm flexible</button>
       </div>
     </div>
   )
