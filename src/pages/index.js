@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Head from "next/head";
 
 export default function Home() {
   const exploreData = [
-    { 
+    {
       "id": "1",
       "img": "https://links.papareact.com/5j2",
       "location": "London",
@@ -54,8 +54,7 @@ export default function Home() {
       "distance": "2-hour drive"
     }
   ]
-  
-  
+
   return (
     <div>
       <Head>
@@ -66,9 +65,7 @@ export default function Home() {
       <Banner />
       <main className="px-8 mx-auto max-w-7xl sm:px-16">
         <section className="pt-6">
-          <h2 className="pb-5 text-4xl font-semibold">
-            Explore Nearby
-          </h2>
+          <h2 className="pb-5 text-4xl font-semibold">Explore Nearby</h2>
           {/* Pull some data from server */}
           {exploreData.map((item) => (
             <h1 key={item.id}>{item.location}</h1>
@@ -79,3 +76,22 @@ export default function Home() {
   );
 }
 
+// export async function getStaticProps() {
+//   try {
+//     const exploreData = await fetch("https://jsonkeeper.com/b/PGV7").then(
+//       (res) => res.json()
+//     );
+//     return {
+//       props: {
+//         exploreData,
+//       },
+//     };
+//   } catch (error) {
+//     console.log("Error fetching explore data:", error);
+//     return {
+//       props: {
+//         exploreData: [],
+//       },
+//     };
+//   }
+// }
