@@ -43,7 +43,7 @@ const Map = ({ searchResults }) => {
               onClick={() => setSelectedLocation(result)}
               className="cursor-pointer text-2xl animate-bounce"
             >
-              A
+              📌
             </p>
           </Marker>
           {selectedLocation.long === result.long && (
@@ -63,3 +63,5 @@ const Map = ({ searchResults }) => {
 };
 
 export default Map;
+
+
