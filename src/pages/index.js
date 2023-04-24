@@ -3,9 +3,9 @@ import Banner from "../components/Banner";
 import Header from "../components/Header";
 import Head from "next/head";
 import SmallCard from "../components/SmallCard";
-import MediumCard from "@/components/MediumCard";
-import LargeCard from "@/components/LargeCard";
-import Footer from "@/components/Footer";
+import MediumCard from "../components/MediumCard";
+import LargeCard from "../components/LargeCard";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const exploreData = [
