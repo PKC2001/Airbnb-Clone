@@ -14,27 +14,27 @@ const Footer = () => {
             </div>
             <div className='space-y-4 text-xs text-gray-800'>
                 <h5 className='font-bold'>COMMUNITY</h5>
-                <p>Accessibility</p>
+                <p>Please Note</p>
                 <p>This is not a real Site</p>
-                <p>It's a pretty Awesome Clone.</p>
                 <p>Referrals Accepted</p>
-                <p>PKC</p>
+                <p>Airbnb Clone</p>
+                <p>It's a pretty Awesome</p>
             </div>
             <div className='space-y-4 text-xs text-gray-800'>
-                <h5 className='font-bold'>HOST</h5>
+                <h5 className='font-bold'>Contact</h5>
                 <p>Pranav</p>
                 <p>presents</p>
                 <p>Airbnb</p>
                 <p>clone</p>
-                <p>:</p>
+                <p>email: chillawarpranav@gmail.com</p>
             </div>
             <div className='space-y-4 text-xs text-gray-800'>
                 <h5 className='font-bold'>SUPPORT</h5>
                 <p>Help Center</p>
                 <p>Trust & Saftey</p>
-                <p></p>
-                <p>Airbnb Plus</p>
-                <p>Airbnb Luxe</p>
+                <p>Airbnb Helpline</p>
+                <p>Airbnb Customer Care</p>
+                <p>Live chat</p>
             </div>
         </footer>
   )
