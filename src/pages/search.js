@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { format } from "date-fns";
 import React from "react";
 import InfoCard from "../components/InfoCard";
+import Map from "@/components/Map";
 
 const Search = () => {
   const searchResults = [
@@ -145,6 +146,9 @@ const Search = () => {
               )
             )}
           </div>
+        </section>
+        <section className="hidden xl:inline-flex xl:min-w-[600px]">
+            <Map searchResults={searchResults} />
         </section>
       </main>
     </div>
